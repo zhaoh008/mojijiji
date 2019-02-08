@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+{include file='index/head'/}
+<body>
+{include file='index/header'/}
+<section >
+    <div class="container " >
+        <div class="row" >
+            <div class="col-md-12 " >
+                <div class="post ">
+                    <div class="post-head" >
+                        <h1 class="post-title">
+                           修改文章
+                        </h1>
+
+                    </div>
+                    {volist name="article" id="article"}
+                    <div class="post-content">
+                    <form method="post" action="{:url('article/saveUpdarticle',['article_id'=>$article.article_id])}" role="form">
+
+                        <div class="form-group">
+                            <label for="title">标题：</label>
+                            <input type="text" class="form-control form-control1"  id="title" name="title" value="{$article.title}">
+                        </div>
+                        <div class="form-group">
+                        <label for="author">作者：</label>
+                        <input type="text" class="form-control form-control1" id="author" name="author"  value="{$article.author}">
+                        </div>
+                        <div class="form-group">
+                            <label for="file_upload">文章缩略图：</label>
+                            <div style="display: inline-block">
+                                <input type="file"  id="file_upload" >
+                            </div>
+                        </div>
+                        <img id="wa" class="img-responsive">
+                        <div class="form-group">
+                            <label for="savename">图片地址：</label>
+                            <input type="text"  class="form-control form-control1"id="savename" name="image" value="{$article.image}" readonly="true">
+                        </div>
+                        <div class="form-group">
+                            <label>分类：</label>
+                            <select class="form-control form-control1" name="category" id="category" >
+                                {volist name="category" id="category"}
+                                <option  >{$category.name}</option>
+                                {/volist}
+                            </select>
+                            <p style="color: #ff6766">提示：必须重新选择分类（原分类为：{$article.category}）</p>
+                        </div>
+                        <p><label>标签：</label></p>
+                        {volist name="label" id="label"}
+                        <label class="checkbox-inline">
+                            <input type="checkbox" value="{$label.name}" name="label1[]"> {$label.name}
+                        </label>
+                        {/volist}
+                        <p style="color: #ff6766">提示：必须重新选择标签（原标签为：{$article.label}）</p>
+                      <div>
+                          <label for="describe">文章描述：</label>
+                          <textarea class="form-control form-control2" rows="3" id="describe" name="adescribe" >{$article.adescribe}</textarea>
+                          <label for="editor">文章内容：</label>
+                          <textarea rows="18" id="editor" name="content" >
+                              {$article.content|html_entity_decode}</textarea>
+                          <button type="submit" class="btn btn-doc1">更新</button>
+                      </div>
+                        {/volist}
+                    </form>
+                </div>
+                    <footer class="post-footer " >
+
+                    </footer>
+                </div>
+            </div>
+        </div>
+        </div>
+
+</section>
+<script type="text/javascript">
+    var ue = UE.getEditor('editor');
+</script>
+<script>
+    $(function() {
+        $("#file_upload").uploadify({
+            swf           : '__PUBLIC__/uploadify/uploadify.swf',
+            'buttonText'  : '图片上传',
+            'fileSizeLimit' : '2000KB',
+            'fileTypeDesc'  : '你需要一些文件',
+            'fileTypeExts'  : '*.gif; *.jpg; *.png',
+            uploader      : "{:url('admin/article/uploadimage')}",
+            'onUploadSuccess':function(file, data, response){
+                console.log(data);
+                console.log(file);
+                console.log(response);
+                $("#savename").attr("value","/uploads/"+data);
+                $("#wa").attr("src","/uploads/"+data);
+            }
+        });
+    });
+</script>
+</body>
+</html>

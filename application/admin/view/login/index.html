@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+{include file='index/head'/}
+<body>
+<div class="header"  style="background-image: url(/static/images/red5.jpg )"  >
+    <div class="container">
+        <div class="row">
+            <div class="cl-xs-12">
+                <h1  >
+                    Program-01后台博客管理系统。
+                </h1>
+            </div>
+        </div>
+
+    </div>
+</div>
+<section >
+    <div class="container " >
+        <div class="row" >
+            <div class="col-md-12 " >
+                <div class="post ">
+                    <div class="post-head" >
+                        <h1 class="post-title">
+                            管理员登陆
+                        </h1>
+                    </div>
+                    <div class="post-content">
+                        <form method="post" action="{:url('login/index')}" role="form">
+                            <div class="form-group" style="margin-left: 25%">
+                                <label for="title">账户：</label>
+                                <input type="text" class="form-control form-control1"  id="title" name="name" placeholder="请输入用户名">
+                            </div>
+                            <div class="form-group"style="margin-left: 25%">
+                                <label for="author">密码：</label>
+                                <input type="password" class="form-control form-control1" id="author" name="password" placeholder="请输入密码">
+                            </div>
+                            <button type="submit" class="btn btn-doc1" style="margin-left: 61%">登陆</button>
+                        </form>
+                    <footer class="post-footer " >
+
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+</body>
+</html>

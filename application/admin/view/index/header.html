@@ -1,0 +1,41 @@
+<div class="header"  style="background-image: url(/static/images/red5.jpg )"  >
+    <div class="container">
+        <div class="row">
+            <div class="cl-xs-12">
+                <h1  >
+                    Program-01后台博客管理系统。
+                </h1>
+                {if condition="$admin"}
+                <p> 管理员{$admin->name}<a style="color: #0f0f0f " href="{:url('login/loginout')}">退出</a></p>
+                {/if}
+            </div>
+        </div>
+
+    </div>
+</div>
+<nav class="navbar-doc " role="navigation">
+    <div class="container">
+        <div class="row" >
+            <div class="col-sm-12">
+                <div class="navbar-header ">
+                    <button type="button" class="navbar-toggle nav-toggle " data-toggle="collapse" data-target="#menu1">
+                        <span class="hanbao"></span>
+                        <span class="hanbao"></span>
+                        <span class="hanbao"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse " id="menu1">
+                    <ul class="nav-doc">
+                        <li><a href="{:url('index/index')} ">文章管理</a></li>
+                        <li><a href=" {:url('label/label')}">管理用户</a></li>
+                        <li><a href="label.html ">管理评论</a></li>
+                        <li><a href="{:url('category/category')}">管理分类</a></li>
+                        <li><a href="{:url('label/label')}">管理标签</a></li>
+                        <li><a href="{:url('wellsaying/wellsaying')}">管理名言</a></li>
+                        <li><a href="{:url('index/index/index')}">博客首页</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

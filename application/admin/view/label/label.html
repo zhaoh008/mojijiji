@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+{include file='index/head'/}
+<body>
+{include file='index/header'/}
+<section >
+    <div class=" container-fluid " >
+        <div class="row" >
+            <div class="col-md-12 " >
+                <div class="post ">
+                    <div class="post-head" >
+                        <h1 style="text-align: center ">
+                            标签管理
+                        </h1>
+
+                    </div>
+                    <div class="post-content" >
+                        <form class="form-inline" role="form" method="post" action="{:url('label/findLabel')}">
+                            <div class="form-group">
+                                <label  for="name">标签名称:</label>
+                                <input type="text" class="form-control form-control2" id="name" placeholder="请输入标签名称" name="name">
+                            </div>
+                            <button type="submit" class="btn btn-doc1">查询</button>
+                        </form>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered">
+                                <thead>
+                                <tr>
+                                    <th>操作</th>
+                                    <th>名称</th>
+                                    <th>文章总数</th>
+                                    <th>日期</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {volist name="label" id="vo"}
+                                <tr>
+                                    <td><div class="caozuo"><a data-toggle="modal"data-target="#myModal{$vo.label_id}"><span class="glyphicon glyphicon-tags">修改</span></a>&nbsp;
+                                    <div class="modal " style="margin-top: 100px" id="myModal{$vo.label_id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title" id="myModalLabel{$vo.label_id}">修改标签</h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                </div>
+                                                <form method="post" style="margin-top: 10px" action="{:url('label/updlabel',['label_id'=>$vo.label_id])}" role="form">
+                                                    <div class="form-group">
+                                                        <label for="title1">标签名称：</label>
+                                                        <input type="text" class="form-control form-control1"  id="title1" name="name" value="{$vo.name}">
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                                        <button type="submit" class="btn btn-doc1">修改</button>
+                                                    </div>
+                                                </form>
+
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal -->
+                                    </div>
+                                    <a data-toggle="modal" data-target="#myModa{$vo.label_id}"><span class="glyphicon glyphicon-trash">删除</span></a>
+                                    <div class="modal " style="margin-top: 100px" id="myModa{$vo.label_id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                                </div>
+
+                                                    <div class="post-head " >
+                                                        <h1 class="post-title " >
+                                                            确定要删除么？删除后无法恢复
+                                                        </h1>
+                                                    </div>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                                    <a href="{:url('label/delLabel',['id'=>$vo.label_id])}" class="btn btn-doc1">确定</a>
+                                                </div>
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal -->
+                                    </div>
+                                    </div></td>
+                                    <td>{$vo.name}</td>
+                                    <td>{$vo.articlenumber}</td>
+                                    <td>{$vo.ovdate}</td>
+                                </tr>
+                                {/volist}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="page-doc" >
+                        {$label->render()}
+
+                    </div>
+
+
+                    <div class="post-permalink">
+                        <a data-toggle="modal" data-target="#myModal1" class="btn btn-doc1">添加标签</a>
+                        <div class="modal " style="margin-top: 100px" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="myModalLabel">添加标签</h4>
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    </div>
+                                    <form method="post" style="margin-top: 10px" action="{:url('label/savelabel')}" role="form">
+                                        <div class="form-group">
+                                            <label for="title">标签名称：</label>
+                                            <input type="text" class="form-control form-control1"  id="title" name="name" placeholder="请输入标签名称">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                                            <button type="submit" class="btn btn-doc1">添加</button>
+                                        </div>
+                                    </form>
+
+                                </div><!-- /.modal-content -->
+                            </div><!-- /.modal -->
+                        </div>
+                    </div>
+                    <footer class="post-footer " >
+
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+{include file='index/head'/}
+<body>
+{include file='index/header'/}
+<section >
+    <div class="container " >
+        <div class="row" >
+            <main class="col-md-8 " >
+                <div class="post" >
+                    <div class="post-head " >
+                        <h1 class="post-title " >
+                            留言板
+                        </h1>
+                    </div>
+                    <div class="comment-head">
+                        <div class="comment-box">
+                            <div class="comment-img">
+                                <img src="__PUBLIC__/images/mojiji.png" class="img-responsive img-circle">
+                            </div>
+                            <form method="post" action="{:url('index/addlmessage')}">
+                                <div class="comment-form">
+                                    <label for="describe">留下想说的话：</label>
+                                    <textarea class="form-control form-control2" rows="4" id="describe" name="content" placeholder="说点什么...."></textarea>
+                                    <label for="name1">昵称：</label>
+                                    <input class="form-control form-control2" id="name1" type="text" name="name" placeholder="可不填">
+                                    <label for="email">联系方式：</label>
+                                    <input class="form-control form-control2" id="email" type="text" name="contact" placeholder="可不填">
+                                    <div class="comment-btn">
+                                        <button type="submit" class="btn btn-doc4">留言</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    {volist name='lmessage' id='vo'}
+                    <div class="comment-body">
+
+                        <div class="comment-main">
+                            <div class="comment-img">
+                                <img src="__PUBLIC__/images/mojiji.png" class="img-responsive img-circle">
+                            </div>
+                            <div class="comment-type">
+                                <div class="comment-name">
+                                    {if condition="( empty($vo.name)) "} 无名：
+                                    {else /} {$vo.name}：
+                                    {/if}
+                                </div>
+                                <div class="comment-content">
+                                    {$vo.content}
+                                </div>
+                                <div class="comment-information">
+                                    <span >{$vo.sdate}</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    {/volist}
+                    <footer class="post-footer " >
+
+                    </footer>
+
+                </div>
+            </main>
+        </div>
+    </div>
+</section>
+
+
+<div id="to-top" onclick="GoTop ()" >
+    <span class="glyphicon glyphicon-chevron-up " ></span>
+</div>
+{include file='index/footer'/}
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+{include file='index/head'/}
+<body>
+{include file='index/header'/}
+<section >
+    <div class="container " >
+        <div class="row" >
+            <main class="col-md-8 " >
+                <div class="post">
+                <div class="post-head " >
+                    <h1 class="post-title " >
+                        标签云
+                    </h1>
+                </div>
+                <div class="post-content" >
+                    {volist name="label" id="vo"}
+                    <a href="{:url('index/index/labelarticle',['name'=>$vo.name])}" class="btn  btn-doc2" >{$vo.name}</a>
+                    {/volist}
+                </div>
+                <footer class="post-footer " >
+                </footer>
+                </div>
+            </main>
+            <div class="col-md-4" >
+                <div class="widget" >
+                    <div class="title" >
+                        <h3>有趣的话</h3>
+                    </div>
+                    <div class="content1" >
+                        {volist name="wellsaying" id="vo"}
+                        {$vo.content}
+                        {/volist}
+                    </div>
+                </div>
+                {include file='index/category'/}
+                {include file='index/label'/}
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<div id="to-top" onclick="GoTop ()" >
+    <span class="glyphicon glyphicon-chevron-up " ></span>
+</div>
+</body>
+{include file='index/footer'/}
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+{include file='index/head'/}
+<body>
+{include file='index/header'/}
+<section >
+    <div class="container " >
+        <div class="row" >
+            <main class="col-md-8 " >
+                <div class="post" >
+
+                    <div class="post-content" >
+                        <p></p>
+                        <h3>搜索到下面这些文章</h3>
+                        <p></p>
+
+                    </div>
+                    <footer class="post-footer " >
+                        <p style="color: #ff6766">{$article|emptyarticle}</p>
+                    </footer>
+                </div>
+                {volist name="article" id="vo"}
+                <article class="post" >
+                    <div class="post-head " >
+                        <h1 class="post-title " >
+                            <a href="{:url('index/index/seeArticle',['article_id'=>$vo.article_id]) }" >{$vo.title}</a>
+                        </h1>
+                        <div class="post-meta" >
+                            <sapn class="author">
+                                作者：<a href="#" >{$vo.author}</a>
+                            </sapn>
+                            ·
+                            <time class="post-date" >{$vo.ovdate}</time>
+                        </div>
+                    </div>
+                    <div class="featured-madia" >
+                        <a href="{:url('index/index/seeArticle',['article_id'=>$vo.article_id]) }"  ><img src="{$vo.image}" class="img-responsive"></a>
+                    </div>
+                    <div class="post-content" >
+                        <p></p>
+                        <p>{$vo.adescribe}</p>
+                        <p></p>
+                    </div>
+                    <div class="post-permalink">
+                        <a href=" {:url('index/index/seeArticle',['article_id'=>$vo.article_id]) }" class="btn btn-doc1">阅读全文</a>
+                    </div>
+                    <footer class="post-footer " >
+                        <span class="glyphicon glyphicon-folder-open"></span>{$vo.label}
+                    </footer>
+                </article>
+                {/volist}
+                <div class="page-doc" >
+                    {$article->render()}
+                </div>
+            </main>
+            <div class="col-md-4" >
+                <div class="widget" >
+                    <div class="title" >
+                        <h3>有趣的话</h3>
+                    </div>
+                    <div class="content1" >
+                        {volist name="wellsaying" id="vo"}
+                        {$vo.content}
+                        {/volist}
+                    </div>
+                </div>
+                {include file='index/category'/}
+                {include file='index/label'/}
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<div id="to-top" onclick="GoTop ()" >
+    <span class="glyphicon glyphicon-chevron-up " ></span>
+</div>
+</body>
+{include file='index/footer'/}
+</html>

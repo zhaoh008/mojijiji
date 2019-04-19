@@ -19,7 +19,7 @@ class Http extends Handle
             return parent::render($e);
         }else{
             //404页面  自行定义
-            header("Location:".url('index/index/index'));
+            header("Location:".url('index/index/404'));
         }
     }
 

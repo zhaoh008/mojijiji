@@ -88,4 +88,7 @@ class Index   extends Base
         $daan=input('post.');
         print_r($daan);
     }
+    public function  Page404(){
+
+    }
 }

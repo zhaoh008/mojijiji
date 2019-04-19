@@ -89,6 +89,6 @@ class Index   extends Base
         print_r($daan);
     }
     public function  Page404(){
-
+        return $this->fetch();
     }
 }

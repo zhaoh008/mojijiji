@@ -1,0 +1,194 @@
+﻿<body>
+<style>
+    body {
+        font-family: 'Dosis', sans-serif;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    section {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    /*=================================
+        HEADER / REPLICATE HEADER STYLES
+     ==================================*/
+    .header-div {
+        background: url(../img/1.jpg); /* DEFINE IMAGE PATH CAREFULLY*/
+        -webkit-background-size: cover;
+        background-size: cover;
+        -webkit-animation: bgscroll 15s infinite linear; /* 15s - speed of scroll , you can change it */
+        animation: bgscroll 15s infinite linear;
+        -moz-animation: bgscroll 15s infinite linear;
+        -ms-animation: bgscroll 15s infinite linear;
+        color: #fff;
+    }
+
+    .header-div h1 {
+        font-size: 70px;
+        font-weight: 900;
+    }
+
+    .header-div .overlay {
+        min-height: 200px;
+        background: rgba(43, 77, 131, 0.9);
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+
+    /*Background Scrolling Animation*/
+    @-webkit-keyframes bgscroll {
+        from {
+            background-position: 0 0;
+        }
+
+        to {
+            background-position: 0 -400px;
+        }
+    }
+
+    @-moz-keyframes bgscroll {
+        from {
+            background-position: 0 0;
+        }
+
+        to {
+            background-position: 0 -400px;
+        }
+    }
+
+    @-ms-keyframes bgscroll {
+        from {
+            background-position: 0 0;
+        }
+
+        to {
+            background-position: 0 -400px;
+        }
+    }
+
+    @-o-keyframes bgscroll {
+    from
+
+    {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 -400px;
+    }
+
+    }
+
+    @keyframes bgscroll {
+        from {
+            background-position: 0 0;
+        }
+
+        to {
+            background-position: 0 -400px;
+        }
+    }
+    /*=================================
+        TEXT SECTION STYLES
+    =================================== */
+    .section-text {
+        background-color: #6381C3;
+        color: #fff;
+    }
+    /*=================================
+        FOOTER SECTION STYLES
+    =================================== */
+
+    footer {
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 900;
+        background-color: #6381C3;
+        color: #fff;
+    }
+
+    footer a, footer a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+</style>
+    <div class="header-div">
+        <div class="overlay">
+
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img src="../static/images/logo.png" alt="" />
+                    </div>
+                    <div class="col-md-8 ">
+                        <h1>We Found Error <strong>404 ! </strong></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER END -->
+    <section class="section-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Possible Causes Of this Error</h3>
+                    <ul>
+                        <li>The resouce you are looking for is not here or moved.
+                        </li>
+                        <li>Somebody or admin has deleted the page for some reason.
+                        </li>
+                        <li>There are also some other reasons that can't be disclosed here so you shoould contact admin at 
+                        <strong>help@admindomain.com</strong>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="alert alert-info">
+                        In case of emergency you can call us at
+                      <strong>+90-456-456-9999</strong> and reach us at our headquarter located  : 
+                     <strong>230/56 , New Lane City, United Kingdom.</strong>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h2>Quick Links</h2>
+                    <hr />
+                    <a href="#" class="btn btn-info">Navigate to Home Page</a>
+                    <hr />
+                    <a href="mailto:help@admindomain.com?Subject=Hello%20Subject" class="btn  btn-warning">Launch a Qucik e-mail</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TEXT SECTION END -->
+    <div class="header-div">
+        <div class="overlay">
+
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-md-12">
+                        <h1>Sorry,  <strong>For Inconvenience </strong></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER DIV REPLICATE END -->
+    <footer>
+        © 2015 YourDomain.com    <a href="http://www.xmoban.cn/" target="_blank">by Xmoban</a>
+    </footer>
+    <!-- FOOTER SECTION END -->
+    <!-- REQUIRED SCRIPTS FILES -->
+    <!-- CORE JQUERY FILE -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- REQUIRED BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.js"></script>
+
+</body>
+
+</html>

@@ -64,6 +64,20 @@
 
                 </div>
             </main>
+            <div class="col-md-4" >
+                <div class="widget" >
+                    <div class="title" >
+                        <h3>有趣的话</h3>
+                    </div>
+                    <div class="content1" >
+                        {volist name="wellsaying" id="vo"}
+                        {$vo.content}
+                        {/volist}
+                    </div>
+                </div>
+                {include file='index/category'/}
+                {include file='index/label'/}
+            </div>
         </div>
     </div>
 </section>

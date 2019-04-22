@@ -22,6 +22,6 @@ class Category extends Controller
 //                $article_num=model('Article')->categoryArticleNum($category_list[$key]['id']);
                 $category_list[$key]['article_num']=3;
             }
-            $this->fetch('',['category'=>$category_list]);
+            $this->fetch('');
         }
 }

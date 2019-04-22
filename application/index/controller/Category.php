@@ -10,7 +10,7 @@ class Category extends Controller
 {
         public function categoryList(){
             $category_list=model('Category')->getCategory();
-            var_dump($category_list);die();
+            echo "<pre>";print_r($category_list);echo "<pre>";;die();
             foreach ($category_list as $key=>$value){
 
             }

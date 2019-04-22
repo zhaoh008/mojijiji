@@ -3,7 +3,7 @@
         <h3>分类</h3>
     </div>
     <div class="content1" >
-        {volist name='category_list' id='vo'}
+        {volist name='category' id='vo'}
         <a href="{:url('index/index/categoryArticle',['name'=>urldecode($vo.name)])}" class="btn  btn-doc4" ><span class="badge badge-doc pull-right ">{$vo.articlenumber}</span>{$vo.name}</a>
         {/volist}
     </div>

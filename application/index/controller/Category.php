@@ -19,7 +19,7 @@ class Category extends Controller
 //            echo "<pre>";print_r($category_list);echo "<pre>";;die();
             //计算每个分类下的文章数量
             foreach ($category_list as $key=>$value){
-                $article_num=model('Article')->categoryArticleNum($category_list[$key]['id']);
+//                $article_num=model('Article')->categoryArticleNum($category_list[$key]['id']);
                 $category_list[$key]['article_num']=3;
             }
             $this->fetch('',['category'=>$category_list]);

@@ -1,0 +1,3267 @@
+---------------------------------------------------------------
+[ 2019-04-18T21:00:42+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.bbb.com/ [运行时间：0.371000s][吞吐率：2.70req/s] [内存消耗：2,431.30kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[C:\wamp64\www\mojijiji\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2019-04-18T21:02:16+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.bbb.com/ [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：331.02kb] [文件加载：43]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1049]SQLSTATE[HY000] [1049] Unknown database 'blog'[C:\wamp64\www\mojijiji\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2019-04-18T21:05:02+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.bbb.com/ [运行时间：0.136000s][吞吐率：7.35req/s] [内存消耗：861.99kb] [文件加载：52]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:05:02+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg
+[ info ] www.bbb.com/uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg [运行时间：0.011000s][吞吐率：90.91req/s] [内存消耗：134.00kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171202',
+    2 => '6a9881a762269c63b423bfecb54f0473.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:05:09+08:00 ] 127.0.0.1 127.0.0.1 GET /read/94.html
+[ info ] www.bbb.com/read/94.html [运行时间：0.120000s][吞吐率：8.33req/s] [内存消耗：895.34kb] [文件加载：49]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'seearticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'article_id' => '94',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->seeArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\seearticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+  5 => 'prev',
+  6 => 'next',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` = 94 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` < 94  AND `category` LIKE '编程语言' ORDER BY `article_id`  desc LIMIT 1 [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` > 94  AND `category` LIKE '编程语言' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:05:09+08:00 ] 127.0.0.1 127.0.0.1 GET /read/favicon.ico
+[ info ] www.bbb.com/read/favicon.ico [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：409.27kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'seearticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/read/94.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'article_id' => 'favicon.ico',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->seeArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` = 0 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组下标: 0[C:\wamp64\www\mojijiji\application\common\model\Article.php:123]
+---------------------------------------------------------------
+[ 2019-04-18T21:05:12+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.bbb.com/ [运行时间：0.080000s][吞吐率：12.50req/s] [内存消耗：751.23kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:05:12+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg
+[ info ] www.bbb.com/uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg [运行时间：0.007000s][吞吐率：142.86req/s] [内存消耗：132.89kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171202',
+    2 => '6a9881a762269c63b423bfecb54f0473.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:05:14+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E6%9C%8D%E5%8A%A1%E7%AB%AF.html
+[ info ] www.bbb.com/category/%E6%9C%8D%E5%8A%A1%E7%AB%AF.html [运行时间：0.066000s][吞吐率：15.15req/s] [内存消耗：575.31kb] [文件加载：52]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'categoryArticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => '服务端',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->categoryArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\categoryArticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '服务端' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '服务端' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:05:14+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ info ] www.bbb.com/category/favicon.ico [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：529.95kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'categoryArticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/category/%E6%9C%8D%E5%8A%A1%E7%AB%AF.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'favicon.ico',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->categoryArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\categoryArticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:05:16+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.bbb.com/ [运行时间：0.076000s][吞吐率：13.16req/s] [内存消耗：750.02kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:05:42+08:00 ] 127.0.0.1 127.0.0.1 POST /api/phoneapi/checkphone
+[ info ] www.bbb.com/api/phoneapi/checkphone [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：360.83kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'phoneapi',
+    2 => 'checkphone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '7',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.bbb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bbb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '3',
+)
+[ info ] [ RUN ] app\api\controller\Phoneapi->checkPhone[ C:\wamp64\www\mojijiji\application\api\controller\Phoneapi.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.blog_user' doesn't exist[C:\wamp64\www\mojijiji\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2019-04-18T21:06:01+08:00 ] 127.0.0.1 127.0.0.1 POST /api/phoneapi/checkphone
+[ info ] www.bbb.com/api/phoneapi/checkphone [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：359.46kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'phoneapi',
+    2 => 'checkphone',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.bbb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bbb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '1898',
+)
+[ info ] [ RUN ] app\api\controller\Phoneapi->checkPhone[ C:\wamp64\www\mojijiji\application\api\controller\Phoneapi.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.blog_user' doesn't exist[C:\wamp64\www\mojijiji\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2019-04-18T21:06:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/loginin
+[ info ] www.bbb.com/index/user/loginin [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：361.05kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'loginin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept' => '*/*',
+  'origin' => 'http://www.bbb.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.bbb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18153073170',
+  'password' => 'asdadasdasdasdas',
+)
+[ info ] [ RUN ] app\index\controller\User->loginIn[ C:\wamp64\www\mojijiji\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'blog.blog_user' doesn't exist[C:\wamp64\www\mojijiji\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2019-04-18T21:06:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] www.bbb.com/admin [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：167.71kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:06:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.015000s][吞吐率：66.67req/s] [内存消耗：173.38kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:06:43+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.044000s][吞吐率：22.73req/s] [内存消耗：418.95kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.bbb.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'zhaoh008',
+  'password' => 'zhaoh!@#008',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_admin` WHERE  `name` = 'zhaoh008' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:06:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：162.48kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:06:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：410.12kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.bbb.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'zhaoh008',
+  'password' => 'zhaoh!@#008',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_admin` WHERE  `name` = 'zhaoh008' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:06:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：162.05kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:06:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：409.24kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.bbb.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'zhaoh007',
+  'password' => 'zhaoh!@#008',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_admin` WHERE  `name` = 'zhaoh007' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:07:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：162.05kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:07:02+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.bbb.com/ [运行时间：0.069000s][吞吐率：14.49req/s] [内存消耗：750.09kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:07:06+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ info ] www.bbb.com/home.html [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：751.52kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:07:06+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg
+[ info ] www.bbb.com/uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg [运行时间：0.008000s][吞吐率：125.00req/s] [内存消耗：132.90kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171202',
+    2 => '6a9881a762269c63b423bfecb54f0473.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/home.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /label/C%2B%2B.html
+[ info ] www.bbb.com/label/C%2B%2B.html [运行时间：0.064000s][吞吐率：15.62req/s] [内存消耗：559.24kb] [文件加载：52]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'labelarticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/home.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'C++',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->labelArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\labelarticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%C  %' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%C  %' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:10:14+08:00 ] 127.0.0.1 127.0.0.1 GET /label/favicon.ico
+[ info ] www.bbb.com/label/favicon.ico [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：529.81kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'labelarticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/label/C%2B%2B.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'favicon.ico',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->labelArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\labelarticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:11:02+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ info ] www.bbb.com/home.html [运行时间：0.075000s][吞吐率：13.33req/s] [内存消耗：751.38kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/label/C%2B%2B.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:11:02+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg
+[ info ] www.bbb.com/uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg [运行时间：0.007000s][吞吐率：142.86req/s] [内存消耗：132.90kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171202',
+    2 => '6a9881a762269c63b423bfecb54f0473.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/home.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:11:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] www.bbb.com/admin [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：166.16kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:11:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.010000s][吞吐率：100.00req/s] [内存消耗：162.05kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:11:20+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：409.24kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.bbb.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'zhaoh007',
+  'password' => 'zhaoh!@#008',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_admin` WHERE  `name` = 'zhaoh007' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:11:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：162.05kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:11:26+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：409.24kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.bbb.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'zhaoh007',
+  'password' => 'zhaoh!@#008',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_admin` WHERE  `name` = 'zhaoh007' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:11:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：162.05kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:11:47+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.bbb.com/ [运行时间：0.044000s][吞吐率：22.73req/s] [内存消耗：750.01kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:11:47+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg
+[ info ] www.bbb.com/uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg [运行时间：0.007000s][吞吐率：142.86req/s] [内存消耗：132.89kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171202',
+    2 => '6a9881a762269c63b423bfecb54f0473.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:11:53+08:00 ] 127.0.0.1 127.0.0.1 GET /?page=2
+[ info ] www.bbb.com/?page=2 [运行时间：0.049000s][吞吐率：20.41req/s] [内存消耗：554.97kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 12,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:11:53+08:00 ] 127.0.0.1 127.0.0.1 GET /touxiang.jpg
+[ info ] www.bbb.com/touxiang.jpg [运行时间：0.006000s][吞吐率：166.67req/s] [内存消耗：132.41kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'touxiang.jpg',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:11:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/search.html?search=mvc
+[ info ] www.bbb.com/index/index/search.html?search=mvc [运行时间：0.082000s][吞吐率：12.20req/s] [内存消耗：719.29kb] [文件加载：52]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'search' => 'mvc',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Search[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\search.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `content` LIKE '%mvc%'  AND `title` LIKE '%mvc%' LIMIT 1 [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `content` LIKE '%mvc%'  AND `title` LIKE '%mvc%' ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:11:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/favicon.ico
+[ info ] www.bbb.com/index/index/favicon.ico [运行时间：0.009000s][吞吐率：111.11req/s] [内存消耗：150.47kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/index/index/search.html?search=mvc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:11:59+08:00 ] 127.0.0.1 127.0.0.1 GET /read/94.html
+[ info ] www.bbb.com/read/94.html [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：769.51kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'seearticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/index/index/search.html?search=mvc',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'article_id' => '94',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->seeArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\seearticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+  5 => 'prev',
+  6 => 'next',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` = 94 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` < 94  AND `category` LIKE '编程语言' ORDER BY `article_id`  desc LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` > 94  AND `category` LIKE '编程语言' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:12:00+08:00 ] 127.0.0.1 127.0.0.1 GET /read/favicon.ico
+[ info ] www.bbb.com/read/favicon.ico [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：409.27kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'seearticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/read/94.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'article_id' => 'favicon.ico',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->seeArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` = 0 [ RunTime:0.001000s ]
+[ error ] [8]未定义数组下标: 0[C:\wamp64\www\mojijiji\application\common\model\Article.php:123]
+---------------------------------------------------------------
+[ 2019-04-18T21:12:31+08:00 ] 127.0.0.1 127.0.0.1 GET /tome.html
+[ info ] www.bbb.com/tome.html [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：582.67kb] [文件加载：52]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'tome',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/read/94.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->toMe[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\tome.html [ array (
+  0 => 'user',
+  1 => 'category',
+  2 => 'tenlabel',
+  3 => 'wellsaying',
+  4 => 'lmessage',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_lmessage` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_lmessage` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_lmessage` LIMIT 0,24 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:14:16+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ info ] www.bbb.com/home.html [运行时间：0.050000s][吞吐率：20.00req/s] [内存消耗：751.28kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/tome.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:14:16+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg
+[ info ] www.bbb.com/uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg [运行时间：0.008000s][吞吐率：125.00req/s] [内存消耗：132.90kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171202',
+    2 => '6a9881a762269c63b423bfecb54f0473.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/home.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:15:23+08:00 ] 127.0.0.1 127.0.0.1 GET /read/94.html
+[ info ] www.bbb.com/read/94.html [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：768.34kb] [文件加载：47]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'seearticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/home.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'article_id' => '94',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->seeArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\seearticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+  5 => 'prev',
+  6 => 'next',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` = 94 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` < 94  AND `category` LIKE '编程语言' ORDER BY `article_id`  desc LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` > 94  AND `category` LIKE '编程语言' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:15:23+08:00 ] 127.0.0.1 127.0.0.1 GET /read/favicon.ico
+[ info ] www.bbb.com/read/favicon.ico [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：409.27kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'seearticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/read/94.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'article_id' => 'favicon.ico',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->seeArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` = 0 [ RunTime:0.001000s ]
+[ error ] [8]未定义数组下标: 0[C:\wamp64\www\mojijiji\application\common\model\Article.php:123]
+---------------------------------------------------------------
+[ 2019-04-18T21:19:43+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ info ] www.bbb.com/home.html [运行时间：0.068000s][吞吐率：14.71req/s] [内存消耗：751.28kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/read/94.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:19:43+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg
+[ info ] www.bbb.com/uploads/20171202/6a9881a762269c63b423bfecb54f0473.jpg [运行时间：0.009000s][吞吐率：111.11req/s] [内存消耗：132.90kb] [文件加载：28]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171202',
+    2 => '6a9881a762269c63b423bfecb54f0473.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/home.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:21:12+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80.html
+[ info ] www.bbb.com/category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80.html [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：530.48kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'categoryArticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/home.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => '编程语言',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->categoryArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\categoryArticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '编程语言' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '编程语言' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:21:12+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ info ] www.bbb.com/category/favicon.ico [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：528.75kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'categoryArticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'favicon.ico',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->categoryArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\categoryArticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:21:15+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80.html
+[ info ] www.bbb.com/category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80.html [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：529.31kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'categoryArticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => '编程语言',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->categoryArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\categoryArticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '编程语言' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '编程语言' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:21:15+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ info ] www.bbb.com/category/favicon.ico [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：528.75kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'categoryArticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'favicon.ico',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->categoryArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\categoryArticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:21:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/search.html?search=110
+[ info ] www.bbb.com/index/index/search.html?search=110 [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：529.38kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'search',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/category/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'search' => '110',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Search[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\search.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `content` LIKE '%110%'  AND `title` LIKE '%110%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `content` LIKE '%110%'  AND `title` LIKE '%110%' ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:21:46+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ info ] www.bbb.com/home.html [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：526.37kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/index/index/search.html?search=110',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:21:47+08:00 ] 127.0.0.1 127.0.0.1 GET /label/JavaScript.html
+[ info ] www.bbb.com/label/JavaScript.html [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：530.32kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'labelarticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/home.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'JavaScript',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->labelArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\labelarticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%JavaScript%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%JavaScript%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:21:47+08:00 ] 127.0.0.1 127.0.0.1 GET /label/favicon.ico
+[ info ] www.bbb.com/label/favicon.ico [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：528.44kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'labelarticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/label/JavaScript.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'favicon.ico',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->labelArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\labelarticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:22:53+08:00 ] 127.0.0.1 127.0.0.1 GET /label/favicon.ico
+[ info ] www.bbb.com/label/favicon.ico [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：528.53kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'labelarticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/label/JavaScript.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'favicon.ico',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->labelArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\labelarticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:32:18+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ info ] www.bbb.com/home.html [运行时间：0.094000s][吞吐率：10.64req/s] [内存消耗：526.32kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/label/JavaScript.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:32:20+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ info ] www.bbb.com/home.html [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：526.36kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/home.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:32:21+08:00 ] 127.0.0.1 127.0.0.1 GET /label/JavaScript.html
+[ info ] www.bbb.com/label/JavaScript.html [运行时间：0.074000s][吞吐率：13.51req/s] [内存消耗：529.40kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'labelarticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/home.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'JavaScript',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->labelArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\labelarticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%JavaScript%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%JavaScript%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:32:21+08:00 ] 127.0.0.1 127.0.0.1 GET /label/favicon.ico
+[ info ] www.bbb.com/label/favicon.ico [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：528.59kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'labelarticle',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/label/JavaScript.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'favicon.ico',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->labelArticle[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\labelarticle.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:32:23+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ info ] www.bbb.com/home.html [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：526.45kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/label/JavaScript.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:33:36+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ info ] www.bbb.com/home.html [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：526.45kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/label/JavaScript.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->Index[ C:\wamp64\www\mojijiji\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/index\view\index\index.html [ array (
+  0 => 'user',
+  1 => 'article',
+  2 => 'category',
+  3 => 'tenlabel',
+  4 => 'wellsaying',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:33:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] www.bbb.com/admin [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：166.16kb] [文件加载：38]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:33:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.009000s][吞吐率：111.11req/s] [内存消耗：162.05kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:33:56+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.043000s][吞吐率：23.26req/s] [内存消耗：409.51kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.bbb.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'zhaoh008',
+  'password' => 'zhaoh!@#008',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_admin` WHERE  `name` = 'zhaoh008' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:33:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：162.05kb] [文件加载：36]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-18T21:34:02+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/index.html
+[ info ] www.bbb.com/admin/login/index.html [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：415.26kb] [文件加载：46]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.bbb.com',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'zhaoh008',
+  'password' => 'zh1203393137',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\wamp64\www\mojijiji\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_admin` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_admin` WHERE  `name` = 'zhaoh008' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:34:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] www.bbb.com/admin/index/index.html [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：523.47kb] [文件加载：57]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp64\www\mojijiji\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/admin\view\index\admin.html [ array (
+  0 => 'admin',
+  1 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%C++%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 23 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%PHP%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 22 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Nginx%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%JavaScript%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%jQuery%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%HTML%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 17 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%CSS%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Python%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Android%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%IOS%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%MySQL%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 13 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%红楼梦%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '网页前端' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '服务端' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '手机应用' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '编程语言' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '数据库' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 8 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'Linux' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 9 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '人工智能' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '心理学哲学' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 11 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '文学影视音乐' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '八卦' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-18T21:34:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/addarticle.html
+[ info ] www.bbb.com/admin/article/addarticle.html [运行时间：0.043000s][吞吐率：23.26req/s] [内存消耗：513.28kb] [文件加载：50]
+[ info ] [ LANG ] C:\wamp64\www\mojijiji\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'addarticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.bbb.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.bbb.com/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'PHPSESSID=soqkouil4b7qhrnjktm6lkbjgp',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ C:\wamp64\www\mojijiji\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\mojijiji\public/../application/admin\view\article\addarticle.html [ array (
+  0 => 'admin',
+  1 => 'category',
+  2 => 'label',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.001000s ]

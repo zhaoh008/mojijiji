@@ -1,0 +1,1006 @@
+---------------------------------------------------------------
+[ 2019-04-20T10:31:53+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.018000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.026000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:32:01+08:00 ] 127.0.0.1 127.0.0.1 GET /tome.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_lmessage` [ RunTime:0.058000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_lmessage` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_lmessage` LIMIT 0,24 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:32:15+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/addlmessage.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_lmessage` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `blog_lmessage` (`content` , `name` , `contact` , `sdate`) VALUES ('' , '' , '' , '2019-04-20') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:32:33+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:32:35+08:00 ] 127.0.0.1 127.0.0.1 GET /tome.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_lmessage` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_lmessage` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_lmessage` LIMIT 0,24 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:33:02+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:33:18+08:00 ] 127.0.0.1 127.0.0.1 GET /tome.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_lmessage` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_lmessage` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_lmessage` LIMIT 0,24 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:34:42+08:00 ] 127.0.0.1 127.0.0.1 GET /label.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /tome.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_lmessage` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_lmessage` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_lmessage` LIMIT 0,24 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:37:05+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:37:07+08:00 ] 127.0.0.1 127.0.0.1 GET /label.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:37:08+08:00 ] 127.0.0.1 127.0.0.1 GET /tome.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_lmessage` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_lmessage` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_lmessage` LIMIT 0,24 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:37:48+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:08+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E6%9C%8D%E5%8A%A1%E7%AB%AF.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '服务端' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '服务端' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:08+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:09+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E6%9C%8D%E5%8A%A1%E7%AB%AF.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '服务端' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '服务端' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:09+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:10+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E6%95%B0%E6%8D%AE%E5%BA%93.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '数据库' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '数据库' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:10+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:11+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '人工智能' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '人工智能' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:11+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:16+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E6%95%B0%E6%8D%AE%E5%BA%93.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '数据库' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '数据库' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:16+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:18+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:38+08:00 ] 127.0.0.1 127.0.0.1 GET /label.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:40+08:00 ] 127.0.0.1 127.0.0.1 GET /label/JavaScript.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%JavaScript%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%JavaScript%' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:40+08:00 ] 127.0.0.1 127.0.0.1 GET /label/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:41+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:43+08:00 ] 127.0.0.1 127.0.0.1 GET /label/jQuery.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%jQuery%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%jQuery%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:43+08:00 ] 127.0.0.1 127.0.0.1 GET /label/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:46+08:00 ] 127.0.0.1 127.0.0.1 GET /label/HTML.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%HTML%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%HTML%' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:46+08:00 ] 127.0.0.1 127.0.0.1 GET /label/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:47+08:00 ] 127.0.0.1 127.0.0.1 GET /label/jQuery.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%jQuery%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%jQuery%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:47+08:00 ] 127.0.0.1 127.0.0.1 GET /label/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:50+08:00 ] 127.0.0.1 127.0.0.1 GET /label/HTML.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%HTML%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%HTML%' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:50+08:00 ] 127.0.0.1 127.0.0.1 GET /label/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:51+08:00 ] 127.0.0.1 127.0.0.1 GET /label/CSS.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%CSS%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%CSS%' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:51+08:00 ] 127.0.0.1 127.0.0.1 GET /label/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%favicon.ico%' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:52+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '手机应用' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '手机应用' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:52+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:54+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '手机应用' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '手机应用' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:54+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:56+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '人工智能' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '人工智能' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:38:56+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:39:19+08:00 ] 127.0.0.1 127.0.0.1 GET /tome.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_lmessage` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_lmessage` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_lmessage` LIMIT 0,24 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:41:51+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:42:05+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_admin` [ RunTime:0.060000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_admin` WHERE  `name` = 'zhaoh008' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:42:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%C++%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 23 [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%PHP%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 22 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Nginx%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%JavaScript%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 20 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%jQuery%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 18 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%HTML%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%CSS%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Python%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Android%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 11 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%IOS%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%MySQL%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 13 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%红楼梦%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '网页前端' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '服务端' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '手机应用' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 6 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '编程语言' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '数据库' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'Linux' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '人工智能' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '心理学哲学' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '文学影视音乐' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '八卦' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:42:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/addarticle.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:43:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/savearticle.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] INSERT INTO `blog_article` (`title` , `author` , `image` , `category` , `adescribe` , `content` , `label` , `sdate` , `ovdate`) VALUES ('测试文章' , '墨叽叽' , '' , '服务端' , '这是一篇测试文章，' , '&lt;h1 class=&quot;postTitle&quot; style=&quot;margin: 0px 0px 20px; padding: 0px; font-size: 28px; font-weight: 400; line-height: 1.8; color: rgb(51, 51, 51); font-family: Verdana, Arial, Helvetica, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;a class=&quot;postTitle2&quot; href=&quot;https://www.cnblogs.com/liaohuolin/p/4325827.html&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(51, 51, 51); text-decoration-line: none;&quot;&gt;基于jQuery头像裁剪插件cropbox&lt;/a&gt;&lt;/h1&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px;&quot;&gt;今天给大家分享一款基于jQuery头像裁剪插件cropbox，这是一款简单实用的jQuery头像在线裁剪插件。该插件适用于适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗。效果图如下：&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px;&quot;&gt;&lt;img src=&quot;http://pic.w2bc.com/upload/201503/08/201503082245582332.jpg&quot; alt=&quot;&quot;/&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px; text-align: center;&quot;&gt;&lt;span style=&quot;margin: 0px; padding: 0px;&quot;&gt;&lt;a class=&quot;preview1&quot; href=&quot;http://%2A%2A%2A/demo/2015-03-08-crop-image/index.html&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 0, 0);&quot;&gt;在线预览&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a class=&quot;download1&quot; href=&quot;http://%2A%2A%2A/article/26838&quot; target=&quot;_blank&quot; style=&quot;margin: 0px; padding: 0px; color: rgb(0, 0, 0);&quot;&gt;源码下载&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px;&quot;&gt;实现的代码。&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px;&quot;&gt;html代码：&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;cnblogs_code_copy&quot; style=&quot;margin: 0px; padding: 0px 5px 0px 0px; line-height: 1.5 !important;&quot;&gt;&lt;a title=&quot;复制代码&quot; style=&quot;margin: 0px; padding: 0px; text-decoration-line: underline; border: none !important;&quot;&gt;&lt;img src=&quot;https://common.cnblogs.com/images/copycode.gif&quot; alt=&quot;复制代码&quot;/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; white-space: pre-wrap; overflow-wrap: break-word; font-family: &amp;quot;Courier New&amp;quot; !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;lt;div&amp;nbsp;class=&amp;quot;container&amp;quot;&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;div&amp;nbsp;class=&amp;quot;imageBox&amp;quot;&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;div&amp;nbsp;class=&amp;quot;thumbBox&amp;quot;&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/div&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;div&amp;nbsp;class=&amp;quot;spinner&amp;quot;&amp;nbsp;style=&amp;quot;display:&amp;nbsp;none&amp;quot;&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Loading...&amp;lt;/div&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/div&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;div&amp;nbsp;class=&amp;quot;action&amp;quot;&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;input&amp;nbsp;type=&amp;quot;file&amp;quot;&amp;nbsp;id=&amp;quot;file&amp;quot;&amp;nbsp;style=&amp;quot;float:&amp;nbsp;left;&amp;nbsp;width:&amp;nbsp;250px&amp;quot;&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;input&amp;nbsp;type=&amp;quot;button&amp;quot;&amp;nbsp;id=&amp;quot;btnCrop&amp;quot;&amp;nbsp;value=&amp;quot;Crop&amp;quot;&amp;nbsp;style=&amp;quot;float:&amp;nbsp;right&amp;quot;&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;input&amp;nbsp;type=&amp;quot;button&amp;quot;&amp;nbsp;id=&amp;quot;btnZoomIn&amp;quot;&amp;nbsp;value=&amp;quot;+&amp;quot;&amp;nbsp;style=&amp;quot;float:&amp;nbsp;right&amp;quot;&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;input&amp;nbsp;type=&amp;quot;button&amp;quot;&amp;nbsp;id=&amp;quot;btnZoomOut&amp;quot;&amp;nbsp;value=&amp;quot;-&amp;quot;&amp;nbsp;style=&amp;quot;float:&amp;nbsp;right&amp;quot;&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/div&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;div&amp;nbsp;class=&amp;quot;cropped&amp;quot;&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/div&amp;gt;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;/div&amp;gt;&lt;/pre&gt;&lt;p&gt;&lt;span class=&quot;cnblogs_code_copy&quot; style=&quot;margin: 0px; padding: 0px 5px 0px 0px; line-height: 1.5 !important;&quot;&gt;&lt;a title=&quot;复制代码&quot; style=&quot;margin: 0px; padding: 0px; text-decoration-line: underline; border: none !important;&quot;&gt;&lt;img src=&quot;https://common.cnblogs.com/images/copycode.gif&quot; alt=&quot;复制代码&quot;/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px;&quot;&gt;css代码：&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;cnblogs_code_copy&quot; style=&quot;margin: 0px; padding: 0px 5px 0px 0px; line-height: 1.5 !important;&quot;&gt;&lt;a title=&quot;复制代码&quot; style=&quot;margin: 0px; padding: 0px; text-decoration-line: underline; border: none !important;&quot;&gt;&lt;img src=&quot;https://common.cnblogs.com/images/copycode.gif&quot; alt=&quot;复制代码&quot;/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; white-space: pre-wrap; overflow-wrap: break-word; font-family: &amp;quot;Courier New&amp;quot; !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;.container&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;position:&amp;nbsp;absolute;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;top:&amp;nbsp;5%;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;left:&amp;nbsp;36%;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;right:&amp;nbsp;0;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bottom:&amp;nbsp;0;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.action&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;width:&amp;nbsp;400px;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;height:&amp;nbsp;30px;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;margin:&amp;nbsp;10px&amp;nbsp;0;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.cropped&amp;nbsp;&amp;gt;&amp;nbsp;img&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;margin-right:&amp;nbsp;10px;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;/pre&gt;&lt;p&gt;&lt;span class=&quot;cnblogs_code_copy&quot; style=&quot;margin: 0px; padding: 0px 5px 0px 0px; line-height: 1.5 !important;&quot;&gt;&lt;a title=&quot;复制代码&quot; style=&quot;margin: 0px; padding: 0px; text-decoration-line: underline; border: none !important;&quot;&gt;&lt;img src=&quot;https://common.cnblogs.com/images/copycode.gif&quot; alt=&quot;复制代码&quot;/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 10px auto; padding: 0px;&quot;&gt;javascript代码：&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;cnblogs_code_copy&quot; style=&quot;margin: 0px; padding: 0px 5px 0px 0px; line-height: 1.5 !important;&quot;&gt;&lt;a title=&quot;复制代码&quot; style=&quot;margin: 0px; padding: 0px; text-decoration-line: underline; border: none !important;&quot;&gt;&lt;img src=&quot;https://common.cnblogs.com/images/copycode.gif&quot; alt=&quot;复制代码&quot;/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; white-space: pre-wrap; overflow-wrap: break-word; font-family: &amp;quot;Courier New&amp;quot; !important;&quot;&gt;$(window).load(function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;options&amp;nbsp;=\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;thumbBox:&amp;nbsp;&amp;#39;.thumbBox&amp;#39;,\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;spinner:&amp;nbsp;&amp;#39;.spinner&amp;#39;,\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;imgSrc:&amp;nbsp;&amp;#39;images/avatar.png&amp;#39;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;cropper&amp;nbsp;=&amp;nbsp;$(&amp;#39;.imageBox&amp;#39;).cropbox(options);\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$(&amp;#39;#file&amp;#39;).on(&amp;#39;change&amp;#39;,&amp;nbsp;function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;reader&amp;nbsp;=&amp;nbsp;new&amp;nbsp;FileReader();\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;reader.onload&amp;nbsp;=&amp;nbsp;function&amp;nbsp;(e)&amp;nbsp;{\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;options.imgSrc&amp;nbsp;=&amp;nbsp;e.target.result;\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cropper&amp;nbsp;=&amp;nbsp;$(&amp;#39;.imageBox&amp;#39;).cropbox(options);\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;reader.readAsDataURL(this.files[0]);&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.files&amp;nbsp;=&amp;nbsp;[];\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$(&amp;#39;#btnCrop&amp;#39;).on(&amp;#39;click&amp;#39;,&amp;nbsp;function&amp;nbsp;()&amp;nbsp;{&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;img&amp;nbsp;=&amp;nbsp;cropper.getDataURL();\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$(&amp;#39;.cropped&amp;#39;).append(&amp;#39;&amp;lt;img&amp;nbsp;src=&amp;quot;&amp;#39;&amp;nbsp;+&amp;nbsp;img&amp;nbsp;+&amp;nbsp;&amp;#39;&amp;quot;&amp;gt;&amp;#39;);\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$(&amp;#39;#btnZoomIn&amp;#39;).on(&amp;#39;click&amp;#39;,&amp;nbsp;function&amp;nbsp;()&amp;nbsp;{\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cropper.zoomIn();\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$(&amp;#39;#btnZoomOut&amp;#39;).on(&amp;#39;click&amp;#39;,&amp;nbsp;function&amp;nbsp;()&amp;nbsp;{\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cropper.zoomOut();\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})\r\n&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});&lt;/pre&gt;&lt;p&gt;&lt;span class=&quot;cnblogs_code_copy&quot; style=&quot;margin: 0px; padding: 0px 5px 0px 0px; line-height: 1.5 !important;&quot;&gt;&lt;a title=&quot;复制代码&quot; style=&quot;margin: 0px; padding: 0px; text-decoration-line: underline; border: none !important;&quot;&gt;&lt;img src=&quot;https://common.cnblogs.com/images/copycode.gif&quot; alt=&quot;复制代码&quot;/&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' , 'Nginx,JavaScript,jQuery,HTML,CSS' , '2019-04-20' , '2019-04-20') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:43:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%C++%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 23 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%PHP%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 22 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Nginx%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 21 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%JavaScript%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 20 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%jQuery%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 18 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%HTML%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 17 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%CSS%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Python%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Android%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 11 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%IOS%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%MySQL%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 13 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%红楼梦%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '网页前端' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '服务端' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=1  WHERE  `category_id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '手机应用' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 6 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '编程语言' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '数据库' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 8 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'Linux' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '人工智能' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '心理学哲学' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 11 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '文学影视音乐' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '八卦' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:43:19+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:43:22+08:00 ] 127.0.0.1 127.0.0.1 GET /read/95.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` = 95 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` < 95  AND `category` LIKE '服务端' ORDER BY `article_id`  desc LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` > 95  AND `category` LIKE '服务端' LIMIT 1 [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:44:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%C++%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 23 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%PHP%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 22 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Nginx%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%JavaScript%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 20 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%jQuery%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 18 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%HTML%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 17 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%CSS%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Python%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Android%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 11 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%IOS%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%MySQL%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 13 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%红楼梦%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '网页前端' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '服务端' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=1  WHERE  `category_id` = 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '手机应用' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '编程语言' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '数据库' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 8 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'Linux' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 9 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '人工智能' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '心理学哲学' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 11 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '文学影视音乐' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '八卦' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:44:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wellsaying/wellsaying.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_wellsaying` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:44:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wellsaying/wellsaying.html?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_wellsaying` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` LIMIT 12,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:44:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wellsaying/wellsaying.html?page=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_wellsaying` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` LIMIT 24,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:44:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/wellsaying/wellsaying.html?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_wellsaying` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` LIMIT 12,12 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:44:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%C++%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 23 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%PHP%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 22 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Nginx%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 21 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%JavaScript%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 20 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%jQuery%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 18 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%HTML%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%CSS%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=1  WHERE  `label_id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Python%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%Android%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 11 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%IOS%' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%MySQL%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 13 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `label` LIKE '%红楼梦%' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_label`  SET `articlenumber`=0  WHERE  `label_id` = 14 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '网页前端' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '服务端' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=1  WHERE  `category_id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '手机应用' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 6 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '编程语言' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '数据库' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 8 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'Linux' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 9 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '人工智能' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '心理学哲学' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 11 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '文学影视音乐' [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '八卦' [ RunTime:0.000000s ]
+[ sql ] [ SQL ] UPDATE `blog_category`  SET `articlenumber`=0  WHERE  `category_id` = 14 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:45:40+08:00 ] 127.0.0.1 127.0.0.1 GET /label.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:45:42+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:46:02+08:00 ] 127.0.0.1 127.0.0.1 GET /category/%E6%9C%8D%E5%8A%A1%E7%AB%AF.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE '服务端' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE '服务端' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:46:02+08:00 ] 127.0.0.1 127.0.0.1 GET /category/favicon.ico
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `category` LIKE 'favicon.ico' LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:46:03+08:00 ] 127.0.0.1 127.0.0.1 GET /read/95.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` = 95 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` < 95  AND `category` LIKE '服务端' ORDER BY `article_id`  desc LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` > 95  AND `category` LIKE '服务端' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:47:50+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/findarticle.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `title` LIKE '%测试文章%'  AND `category` LIKE '%%'  AND `label` LIKE '%%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `title` LIKE '%测试文章%'  AND `category` LIKE '%%'  AND `label` LIKE '%%' ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:47:59+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/article/findarticle.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `title` LIKE '%%'  AND `category` LIKE '%服务%'  AND `label` LIKE '%%' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `title` LIKE '%%'  AND `category` LIKE '%服务%'  AND `label` LIKE '%%' ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:48:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/addarticle.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:48:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/category.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:48:28+08:00 ] 127.0.0.1 127.0.0.1 GET /read/95.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` = 95 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` < 95  AND `category` LIKE '服务端' ORDER BY `article_id`  desc LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `article_id` > 95  AND `category` LIKE '服务端' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:49:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/category.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:49:26+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:49:52+08:00 ] 127.0.0.1 127.0.0.1 GET /home.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2019-04-20T10:52:17+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T11:04:51+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015600s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T11:05:12+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/search.html?search=CMP
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `content` LIKE '%CMP%'  AND `title` LIKE '%CMP%' LIMIT 1 [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `content` LIKE '%CMP%'  AND `title` LIKE '%CMP%' ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2019-04-20T11:05:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/search.html?search=2017092
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=blog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE  `content` LIKE '%2017092%'  AND `title` LIKE '%2017092%' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_article` WHERE  `content` LIKE '%2017092%'  AND `title` LIKE '%2017092%' ORDER BY `article_id`  desc LIMIT 0,12 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_label` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_label` ORDER BY `articlenumber`  desc LIMIT 12 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_wellsaying` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_wellsaying` ORDER BY rand() LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_category` [ RunTime:0.001000s ]

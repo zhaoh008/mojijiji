@@ -1,0 +1,205 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:74:"C:\wamp64\www\mojijiji\public/../application/index\view\index\page404.html";i:1555648672;s:71:"C:\wamp64\www\mojijiji\public/../application/index\view\index\head.html";i:1555384342;}*/ ?>
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>program-01的博客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="__PUBLIC__/css/bootstrap.css " >
+    <link rel="stylesheet" type="text/css"  href="__PUBLIC__/css/mojiji.css "  >
+    <link href="favicon.ico" rel="shortcut icon">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap-validator/0.5.3/css/bootstrapValidator.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
+
+    <script src="__PUBLIC__/js/bootstrap.js " ></script>
+    <script src="__PUBLIC__/js/mojiji.js" ></script>
+</head>
+<body>
+<style>
+    body {
+        font-family: 'Dosis', sans-serif;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    section {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    /*=================================
+        HEADER / REPLICATE HEADER STYLES
+     ==================================*/
+    .header-div {
+        background: url(/static/images/404background.jpg); /* DEFINE IMAGE PATH CAREFULLY*/
+        -webkit-background-size: cover;
+        background-size: cover;
+        -webkit-animation: bgscroll 15s infinite linear; /* 15s - speed of scroll , you can change it */
+        animation: bgscroll 15s infinite linear;
+        -moz-animation: bgscroll 15s infinite linear;
+        -ms-animation: bgscroll 15s infinite linear;
+        color: #fff;
+    }
+
+    .header-div h1 {
+        font-size: 70px;
+        font-weight: 900;
+    }
+
+    .header-div .overlay {
+        min-height: 200px;
+        background: rgba(43, 77, 131, 0.9);
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+
+    /*Background Scrolling Animation*/
+    @-webkit-keyframes bgscroll {
+        from {
+            background-position: 0 0;
+        }
+
+        to {
+            background-position: 0 -400px;
+        }
+    }
+
+    @-moz-keyframes bgscroll {
+        from {
+            background-position: 0 0;
+        }
+
+        to {
+            background-position: 0 -400px;
+        }
+    }
+
+    @-ms-keyframes bgscroll {
+        from {
+            background-position: 0 0;
+        }
+
+        to {
+            background-position: 0 -400px;
+        }
+    }
+
+    @-o-keyframes bgscroll {
+    from
+
+    {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 -400px;
+    }
+
+    }
+
+    @keyframes bgscroll {
+        from {
+            background-position: 0 0;
+        }
+
+        to {
+            background-position: 0 -400px;
+        }
+    }
+    /*=================================
+        TEXT SECTION STYLES
+    =================================== */
+    .section-text {
+        background-color: #6381C3;
+        color: #fff;
+    }
+    /*=================================
+        FOOTER SECTION STYLES
+    =================================== */
+
+    footer {
+        padding: 20px;
+        font-size: 15px;
+        text-align: center;
+        font-weight: 900;
+        background-color: #6381C3;
+        color: #fff;
+    }
+
+    footer a, footer a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+</style>
+    <div class="header-div">
+        <div class="overlay">
+
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img src="/static/images/logo.png" class="img-responsive"  alt="" />
+                    </div>
+                    <div class="col-md-8 ">
+                        <h1>We Found Error <strong>404 ! </strong></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER END -->
+    <section class="section-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>此错误的可能原因</h3>
+                    <ul>
+                        <li>你要找的资源不存在或者被删除。
+                        </li>
+                        <li>有人或管理员出于某种原因删除了该页。
+                        </li>
+                        <li>还有一些其他的原因不能在这里公开，所以你应该联系管理员：
+                        <strong>zhaoh008@gmail.com</strong>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <div class="alert alert-info">
+                        如有必要，Call me!
+                      <strong><p style="word-wrap:break-word">1001111010111011010001010001101011011010001010110101011100</p>
+                      </strong>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <h2>Quick Links</h2>
+                    <hr />
+                    <a href="<?php echo url('index/index/index'); ?>" class="btn btn-info">Navigate to Home Page</a>
+                    <hr />
+                    <a href="mailto:help@admindomain.com?Subject=Hello%20Subject" class="btn  btn-warning">Launch a Qucik e-mail</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TEXT SECTION END -->
+    <div class="header-div">
+        <div class="overlay">
+
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-md-12">
+                        <h1>Sorry,  <strong>For Inconvenience </strong></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER DIV REPLICATE END -->
+    <footer>
+        © 2018-2019 Program-01.com    <a href="ww.program-01.com" target="_blank">by Program-01</a>
+    </footer>
+
+</body>
+
+</html>

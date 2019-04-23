@@ -19,8 +19,8 @@ class Json extends Controller
             $row=array();
          for ($j=0;$j<=$i;$j++){
              $name='name'.$j;
-             $price=2^$j;
-             $row=([
+             $price=$j^2;
+             $row[]=([
                  'name'=>$name,
                  'price'=>$price
              ]);

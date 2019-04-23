@@ -23,10 +23,10 @@ class Json extends Controller
                 $offset=0;
             }
             if(array_key_exists('limit',$get)){
-                $limit=$get['limit']?$get['limit']:0;
+                $limit=$get['limit']?$get['limit']:10;
             }else
             {
-                $limit=10;
+                $limit=888;
             }
             if(array_key_exists('sort',$get)){
                 $sort=$get['sort']?$get['sort']:'id';
@@ -39,6 +39,11 @@ class Json extends Controller
             }
             else{
                 $order='asc';
+            }
+            if(array_key_exists('search',$get)){
+                $search=$get['search']?$get['search']:'';
+            }else{
+                $search='';
             }
          $data=model('test')
             ->where('id|name|price','like','%'.$search.'%')

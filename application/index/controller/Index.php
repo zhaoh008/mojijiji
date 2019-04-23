@@ -91,4 +91,7 @@ class Index   extends Base
     public function  Page404(){
         return $this->fetch();
     }
+    public function Test(){
+        return $this->fetch();
+    }
 }

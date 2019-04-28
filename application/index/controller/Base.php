@@ -17,6 +17,9 @@ class Base extends Controller
         if($islogin){
             $this->assign('user',$this->getLoginUser());
         }
+        else{
+            $this->assign('user','');
+        }
     }
     public function isLogin(){
         $user=$this->getLoginUser();

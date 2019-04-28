@@ -14,8 +14,9 @@ class Base extends Controller
     public function _initialize()
     {
         $islogin=$this->isLogin();
-        $this->assign('user',$this->getLoginUser());
-
+        if($islogin){
+            $this->assign('user',$this->getLoginUser());
+        }
     }
     public function isLogin(){
         $user=$this->getLoginUser();

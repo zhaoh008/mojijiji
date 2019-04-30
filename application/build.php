@@ -22,10 +22,10 @@ return [
         'view'       => ['index/index'],
     ],*/
 
-    'common1'     => [
-        '__dir__'    => [ 'model'],
-        'model'      => ['User', 'UserType'],
-    ],
+//    'common1'     => [
+//        '__dir__'    => [ 'model'],
+//        'model'      => ['User', 'UserType'],
+//    ],
         'cooladmin'     => [
             '__file__'   => ['common.php','config.php'],
             '__dir__'    => ['behavior', 'controller', 'model', 'view'],

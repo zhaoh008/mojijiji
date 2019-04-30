@@ -241,5 +241,6 @@ return [
     'view_replace_str'  =>  [
         '__PUBLIC__'=>'/static',
         '__ROOT__' => '/',
+        '__COOLADMIN__'=>'/static/program-admin'
     ],
 ];

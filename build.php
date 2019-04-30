@@ -26,11 +26,11 @@ return [
         '__dir__'    => [ 'model'],
         'model'      => ['User', 'UserType'],
     ],
-        'admin1'     => [
-            '__file__'   => ['common.php'],
+        'cooladmin'     => [
+            '__file__'   => ['common.php','config.php'],
             '__dir__'    => ['behavior', 'controller', 'model', 'view'],
-            'controller' => ['Index', 'Test', 'UserType'],
+            'controller' => ['Admin', 'Test'],
             'model'      => ['User', 'UserType'],
-            'view'       => ['index/index'],
+            'view'       => ['admin/home'],
     ],
 ];

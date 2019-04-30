@@ -25,7 +25,7 @@ return [
 //    'common1'     => [
 //        '__dir__'    => [ 'model'],
 //        'model'      => ['User', 'UserType'],
-//    ],
+//    ],040007  000001 000002
         'cooladmin'     => [
             '__file__'   => ['common.php','config.php'],
             '__dir__'    => ['behavior', 'controller', 'model', 'view'],

@@ -11,7 +11,7 @@
  * current file name
  * Administrator
  *  
- * current user system login name
+ * current user sasdystem login name
  * 2019-04-30
  *  
  * current system date

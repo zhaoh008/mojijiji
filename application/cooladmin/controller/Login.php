@@ -21,4 +21,10 @@ class Login extends  Controller
     public function Login(){
         return $this->fetch();
     }
+    /*
+     * 注册
+     */
+    public function Register(){
+        return $this->fetch();
+    }
 }
